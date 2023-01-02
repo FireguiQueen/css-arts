@@ -35,7 +35,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: rotacionar 2s;
+    animation: rotacionar 600ms;
 }
 
 #square1{
