@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: flower;
+    font-weight:lighter;
+}
+
+@font-face {
+    font-family: flower;
+    src: url(./fonts/Wander.ttf);
+}
+
+body{  
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 120px;
+    letter-spacing: 2.3px;
+    word-spacing: 30px;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+section:hover{
+
+}
+
+#center{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(80deg, rgb(248, 248, 65), rgb(233, 185, 30)); 
+
+    border-radius: 45%;
+    border: 2px solid rgb(76, 52, 27);
+    position: relative;
+
+
+}
+
+
+
+.allpetolas{
+    background-image: linear-gradient(43deg,  rgb(248, 248, 65), rgb(233, 185, 30)); 
+    border: 2px solid rgb(76, 52, 27);
+    z-index: -1;
+    position: absolute;
+    border-radius: 50% 50% 32% 32%;
+
+
+
+
+}
+
+.top{
+    border-radius: 50% 50% 32% 32%;
+
+}
+
+/* TOP */
+
+#teste{
+    height: 190px;
+    width: 500px;
+    top: 185px;
+    right: 50%;
+    border-radius: 50%;
+
+}
+#PetolaTopMid{
+    height: 190px;
+    width: 100px;
+    top: -185px;
+    right: 30%;
+
+}
+#PetolaTopLeft{
+    top: -120px;
+    right: 69%;
+    height: 190px;
+    width: 100px;
+    transform: rotate(-29deg);
+}
+#PetolaTopRight{
+    top: -130px;
+    right: -10%;
+    height: 190px;
+    width: 100px;
+    transform: rotate(29deg);
+}
+
+
+
+
+
+
+
+/* BOTTOM */ 
+#PetolaBottomMid{
+    position: absolute;
+    bottom: -185px;
+    right: 30%;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%; 
+
+}
+#PetolaBottomLeft{
+    position: absolute;
+    bottom: -120px;
+    right: 69%;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%; 
+    transform: rotate(29deg);
+
+
+}
+#PetolaBottomRight{
+    position: absolute;
+    bottom: -130px;
+    right: -10%;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%; 
+
+    transform: rotate(-29deg);
+}
+
+
+
+
+
+
+/* LEFT */
+#PetolaLeftCenter{
+    position: absolute;
+    left: -50%;
+    top: 30px;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%;
+    
+    transform: rotate(90deg);
+}
+
+#PetolaLeftTop{
+    position: absolute;
+    left: -45%;
+    top: -65px;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%;
+    
+    transform: rotate(125deg);
+}
+#PetolaLeftBottom{
+    position: absolute;
+    left: -40%;
+    top: 140px;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%;
+    
+    transform: rotate(60deg);
+}
+
+
+
+
+
+/* RIGHT */
+#PetolaRightCenter{
+    position: absolute;
+    right: -50%;
+    top: 30px;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%;
+    transform: rotate(-90deg);
+}
+
+#PetolaRightTop{
+    position: absolute;
+    right: -45%;
+    top: -65px;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%;
+    
+    transform: rotate(-120deg);
+}
+#PetolaRightBottom{
+    position: absolute;
+    right: -40%;
+    top: 140px;
+
+    height: 190px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 32% 32% 50% 50%;
+    
+    transform: rotate(-60deg);
+}
