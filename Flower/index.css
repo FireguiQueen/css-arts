@@ -32,10 +32,6 @@ section{
     justify-content: center;
     align-items: center;
 }
-section:hover{
-
-}
-
 #center{
     height: 250px;
     width: 250px;
