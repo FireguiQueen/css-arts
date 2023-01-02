@@ -6,10 +6,6 @@
     font-weight:lighter;
 }
 
-@font-face {
-    font-family: flower;
-    src: url(./fonts/Wander.ttf);
-}
 
 body{  
     height: 100vh;
@@ -233,4 +229,13 @@ section:hover{
     border-radius: 32% 32% 50% 50%;
     
     transform: rotate(-60deg);
+}
+
+
+
+
+
+@font-face {
+    font-family: flower;
+    src: url(./fonts/Wander.ttf);
 }
