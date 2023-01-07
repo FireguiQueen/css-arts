@@ -35,7 +35,7 @@ section{
 #center{
     height: 250px;
     width: 250px;
-    background-image: linear-gradient(80deg, rgb(248, 248, 65), rgb(233, 185, 30)); 
+    background: radial-gradient(rgb(226, 226, 73),rgb(216, 216, 65) 5%,rgb(248, 248, 65) 50%, rgb(233, 185, 30));
 
     border-radius: 45%;
     border: 2px solid rgb(76, 52, 27);
@@ -47,7 +47,7 @@ section{
 
 
 .allpetolas{
-    background-image: linear-gradient(43deg,  rgb(248, 248, 65), rgb(233, 185, 30)); 
+    background-image: linear-gradient(43deg, rgb(248, 248, 65), rgb(233, 185, 30)); 
     border: 2px solid rgb(76, 52, 27);
     z-index: -1;
     position: absolute;
@@ -65,14 +65,6 @@ section{
 
 /* TOP */
 
-#teste{
-    height: 190px;
-    width: 500px;
-    top: 185px;
-    right: 50%;
-    border-radius: 50%;
-
-}
 #PetolaTopMid{
     height: 190px;
     width: 100px;
@@ -226,7 +218,20 @@ section{
 }
 
 
+#suporte{
+    border: 38px solid rgb(33, 59, 33);
+    width: 300px;
+    height: 600px;
+    z-index: -4;
+    position: fixed;
+    left: 47.4%;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 90% 100px 10% 0;
+    transform: rotateZ(-0deg);
+    transform: rotateY(50deg);
 
+}
 
 
 @font-face {

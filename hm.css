@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-image: linear-gradient(45deg, rgb(26, 23, 23), rgb(12, 12, 64));
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+:root{
+    --card-color: rgb(0, 0, 0);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.157);
+    width: 100%;
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    text-transform: uppercase;
+    /* margin-bottom: 3.5%; */
+
+}
+nav ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+section{
+    margin-inline: auto;
+    /* border-radius: 40px; */
+    width: 80%;
+    height: 87.66%;
+    overflow: auto;
+    display: flex;
+    background-color: rgba(7, 8, 8, 0.071);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+img{ 
+    margin-right: 30px;
+}
+
+.level{
+    font-size: 23px;
+    letter-spacing: 5px;
+    border: 1px solid rgb(5, 7, 54);
+    background-color: rgba(145, 198, 214, 0.187);
+    padding: 10px;
+    border-radius: 14px;
+}
+
+
+#card{
+    height: 400px;
+    width: 315px;
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid white;
+    background-position-y: -30px;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 20px;
+
+    transition: transform 130ms linear, border 200ms linear, background-color 200ms linear;
+
+}
+
+#draws-name{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 13px;
+    border-radius: 20% 100% 0% 0%;
+    text-transform: uppercase;
+    font-size: larger;
+    letter-spacing: 2.2px;
+    font-family: 'Rubik 80s Fade', cursive;
+
+    transition: background-color 200ms linear;
+
+}
+
+li{
+    transition: transform 100ms linear;
+
+}
+
+#card:hover{
+    transform: translateY(-15px) rotate(3deg);
+    border: 2px solid var(--card-color);
+    background-color: var(--card-color);
+
+    transition: transform 200ms linear, border 400ms linear, background-color 400ms linear;
+}
+#card:hover > #draws-name{
+    background-color: var(--card-color);
+
+    transition: background-color 400ms linear;
+}
+
+#card:hover > ul >li{
+    transform: translateX(17%);
+    color: white;
+    transition: transform 100ms linear;
+} 
+
+
+
+/* scrollbar */ 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #8b87847f;
+    border-radius: 100%;
+}
+    
+::-webkit-scrollbar-thumb{
+    background-color: #27271e;
+    border: 1px solid #393932;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-button{
+    background-color: #2b2b2135;  
+}
