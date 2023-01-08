@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -63,6 +64,7 @@ img{
     padding: 10px;
     border-radius: 14px;
 }
+
 
 
 #card{

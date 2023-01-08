@@ -1,11 +1,13 @@
 function CreatCard(nome, desenho, redirecionamento){
     let PageCard = WhatDraw => window.location.href = `./${WhatDraw}/index.html`;
     return`
-    <div id="card" onclick="PageCard(${redirecionamento})" style="background-image: url(./images/${desenho}.png);">
-        <ul id="draws-name">
-            <li>${nome}</li>
-        </ul>
-    </div>
+    <a href="https://youtube.com" target="blank">
+        <div id="card" onclick="PageCard(${redirecionamento})" style="background-image: url(./images/${desenho}.png);">
+            <ul id="draws-name">
+                <li>${nome}</li>
+            </ul>
+        </div>
+    </a>
     `
 }
 
