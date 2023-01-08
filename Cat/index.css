@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: flower;
-    font-weight:lighter;
+    font-weight: lighter;
     font-family: Minecraft, 'sans-serif';
 }
 
@@ -48,7 +48,7 @@ section{
     background-color: var(--cat-color);
     height: 160px;
     width: 240px;
-    border-radius: 30%;
+    border-radius: 31%;
 
     display: flex;
     justify-content: center;
@@ -104,6 +104,8 @@ section{
     position: absolute;
     width: 0px;
     height: 0px;
+
+
 }
 #ear{
     border-top: 50px solid rgba(255, 0, 0, 0);
@@ -118,6 +120,21 @@ section{
     transform: rotate(26deg);
 }
 
+#earC{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-left: 27px solid rgba(236, 119, 138, 0.632);
+    left: -54px;
+    top: -33px;
+}
+
+#earC1{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-right: 27px solid rgba(236, 119, 138, 0.632);
+    right: -55px;
+    top: -30px;
+}
 #body{
     position: absolute;
     background-color: var(--cat-color);
@@ -150,3 +167,18 @@ section{
     left: 150px;
 
 }
+
+
+/* #test{
+    background-color: rgb(31, 30, 30);
+    background-color: rgb(234, 21, 21);
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 155px;
+    left: 38%;
+    
+} 
+*/
