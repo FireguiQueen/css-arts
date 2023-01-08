@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: flower;
+    font-weight:lighter;
+    font-family: Minecraft, 'sans-serif';
+}
+
+
+body{  
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+:root{
+    --cat-color:  rgb(16, 20, 20);
+    --eyes-color: rgba(208, 122, 51, 0.864);
+
+}
+
+header{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 120px;
+    letter-spacing: 2.3px;
+    word-spacing: 30px;
+
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#head{
+    background-color: var(--cat-color);
+    height: 160px;
+    width: 240px;
+    border-radius: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+.eyes{
+    background-color: var(--eyes-color);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eyes .pupilas{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#nose{
+    position: absolute;
+    bottom: 40px;
+    height: 0px;
+    width: 0px;
+    border-top: 7px solid rgb(220, 117, 14);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+
+}
+#mustache, #mustache1{
+    position: absolute;
+    bottom: -6.6px;
+    width: .4px;
+    height: 7.5px;
+}
+#mustache{
+    left: -1.8px;
+    background-color: pink;
+    transform: rotate(33deg);
+}
+#mustache1{
+    left: 1.3px;
+    background-color: pink;
+    transform: rotate(-33deg);
+}
+
+#ear, #ear1{
+    top: -35px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+}
+#ear{
+    border-top: 50px solid rgba(255, 0, 0, 0);
+    border-left: 54px solid var(--cat-color);
+    left: 0;
+    transform: rotate(-24deg);
+}
+#ear1{
+    border-top: 50px solid rgba(255, 0, 0, 0);
+    border-right: 54px solid var(--cat-color);
+    right: -5px;
+    transform: rotate(26deg);
+}
