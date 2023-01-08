@@ -19,6 +19,7 @@ CreatCard('Gato', 'Cat') +
 CreatCard('Clã Uchiha', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha') + 
+CreatCard('Clã Uchiha', 'Uchiha') +
 CreatCard('Clã Uchiha', 'Uchiha') 
 
 
