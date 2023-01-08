@@ -16,11 +16,11 @@ CreatCard('Clã Uchiha', 'Uchiha') +
 CreatCard('Cubo', 'cube') + 
 CreatCard('Flor', 'flower') + 
 CreatCard('Gato', 'cat') + 
-CreatCard('Clã Uchiha', 'Uchiha') + 
-CreatCard('Clã Uchiha', 'Uchiha') + 
-CreatCard('Clã Uchiha', 'Uchiha') + 
-CreatCard('Clã Uchiha', 'Uchiha') +
-CreatCard('Clã Uchiha', 'Uchiha') 
+CreatCard('Em breve', 'soon') + 
+CreatCard('Em breve', 'soon') + 
+CreatCard('Em breve', 'soon') + 
+CreatCard('Em breve', 'soon') +
+CreatCard('Em breve', 'soon') 
 
 
 

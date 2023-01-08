@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 
+a{
+    color: red;
+}
 body{
     background-image: linear-gradient(45deg, rgb(26, 23, 23), rgb(12, 12, 64));
     height: 100vh;
@@ -37,7 +40,6 @@ nav ul{
 
 section{
     margin-inline: auto;
-    /* border-radius: 40px; */
     width: 80%;
     height: 87.66%;
     overflow: auto;
@@ -79,6 +81,7 @@ img{
     background-position-y: -30px;
     font-family: 'Rubik 80s Fade', cursive;
     font-size: 20px;
+    color: rgb(0, 0, 0);
 
     transition: transform 130ms linear, border 200ms linear, background-color 200ms linear;
 
