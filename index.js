@@ -14,7 +14,7 @@ section.innerHTML =
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
 CreatCard('Cubo', 'Cubo', 'Cubo') + 
 CreatCard('Flor', 'flower', 'Flower') + 
-CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
+CreatCard('Gato', 'Cat', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
