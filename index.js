@@ -12,9 +12,9 @@ function CreatCard(nome, desenho, redirecionamento){
 var section = document.getElementById('draws');
 section.innerHTML = 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
-CreatCard('Cubo', 'Cubo', 'Cubo') + 
-CreatCard('Flor', 'flower', 'Flower') + 
-CreatCard('Gato', 'Cat', 'Uchiha') + 
+CreatCard('Cubo', 'Cube', 'Cubo') + 
+CreatCard('Flor', 'Flower', 'Flower') + 
+CreatCard('Gato', 'Cat', 'Cat') + 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
 CreatCard('Clã Uchiha', 'Uchiha', 'Uchiha') + 
