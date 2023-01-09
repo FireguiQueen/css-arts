@@ -38,6 +38,63 @@ section{
     align-items: center;
 }
 
+#character{
+    position: relative;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12 {
+    z-index: 3;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    left:40%;
+}
+#b1{
+    top: 2;
+    left: 50%;
+}
+#b2{
+    top:-6px; 
+    left: 47.5%;
+}
+#b3{
+    top:-21px; 
+    left: 47.5%;
+}
+#b4{
+    top:-18px; 
+    left: 45.5%;
+}
+#b5{
+    top:-34px; 
+    left: 44.5%;
+}
+#b6{
+    top:-20px; 
+    left: 44.5%;
+}
+#b7{
+    top: -19px; 
+    left: 41.5%;
+}
+#b9{
+    top: -9px; 
+    left: 43.5%;  
+}
+#b10{
+    top: -7px; 
+    left: 39.5%;  
+}
+#b11{
+    top: -7px; 
+    left: 36.5%;  
+}
+#b12{
+    top: -4px; 
+    left: 38.5%;  
+}
+
 
 #head{
     width: 444px;
@@ -49,10 +106,9 @@ section{
 }
 
 #eyes-part{
-    top: 148px;
+    top: 155px;
     position: absolute;
     width: 100%;
-    border: 1px solid red;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -69,6 +125,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 2px solid black;
 }
 #eyes0{
     transform: rotate(20deg);
@@ -102,12 +159,57 @@ section{
 
 #cap{
     position: absolute;
-    bottom: 43%;
+    bottom: 40%;
     background-image: var(--cordapele);
-
     width: 120%;
-    left:-35px;
+    left: -35px;
     height: 130px;
     border-radius: 50%;
     border-top: 15px solid yellow;
+}
+
+#capc{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to left,aqua, rgb(43, 199, 199));
+}
+
+
+#neck{
+    position: absolute;
+    bottom: -158px;
+    background-color: transparent;
+    width: 60%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    border-radius: 46%;
+}
+
+#mouth{ 
+    position: absolute;
+    background-color: transparent;
+    width: 73px;
+    height: 30px;
+    bottom: -100px;
+
+    border-top: 2px solid black;
+    border-radius: 0 50% 0 15%;
+
+    transform: rotate(2deg);
+
+}
+
+#mouthl{
+    position: absolute;
+    background-color: transparent;
+    width: 73px;
+    height: 30px;
+    bottom: -05px;
+    left: -10px;
+    z-index: 4;
+
+    border-top: .1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 10% 20% 10% 15%;
+
+    transform: rotate(180deg);
 }
