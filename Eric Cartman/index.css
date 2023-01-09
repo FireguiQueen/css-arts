@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: flower;
+    font-weight: lighter;
+    font-family: Minecraft, 'sans-serif';
+}
+
+
+body{  
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+    
+}
+:root{ 
+    --cordapele: linear-gradient(to left, rgb(234, 208, 175),  rgb(239, 218, 190));
+}
+
+header{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 120px;
+    letter-spacing: 2.3px;
+    word-spacing: 30px;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#head{
+    width: 444px;
+    height: 420px;
+    background-image: var(--cordapele);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+#eyes-part{
+    top: 148px;
+    position: absolute;
+    width: 100%;
+    border: 1px solid red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 54;
+    background-image: var(--cordapele);
+}
+
+
+.eyes{
+    height: 130%;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eyes0{
+    transform: rotate(20deg);
+}
+#eyes1{
+    transform: rotate(-20deg);
+}
+
+#pupilas0{
+    position: absolute;
+    left:64px;
+    top: 45px;
+    width: 22px;
+    height: 22px;
+
+    border-radius: 49%;
+    background-color: black;
+}
+#pupilas1{
+    position: absolute;
+    right:64px;
+    top: 45px;
+    width: 22px;
+    height: 22px;
+
+    border-radius: 49%;
+    background-color: black;
+}
+
+
+
+#cap{
+    position: absolute;
+    bottom: 43%;
+    background-image: var(--cordapele);
+
+    width: 120%;
+    left:-35px;
+    height: 130px;
+    border-radius: 50%;
+    border-top: 15px solid yellow;
+}
