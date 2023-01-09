@@ -13,9 +13,9 @@ function CreatCard(nome, desenho){
 var section = document.getElementById('draws');
 section.innerHTML = 
 CreatCard('Clã Uchiha', 'Uchiha') + 
-CreatCard('Cubo', 'cube') + 
-CreatCard('Flor', 'flower') + 
-CreatCard('Gato', 'cat') + 
+CreatCard('Cubo', 'Cube') + 
+CreatCard('Flor', 'Flower') + 
+CreatCard('Gato', 'Cat') + 
 CreatCard('Eric Cartman', 'Eric Cartman') + 
 CreatCard('Em breve', 'soon') + 
 CreatCard('Em breve', 'soon') + 
