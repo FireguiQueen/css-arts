@@ -16,7 +16,7 @@ CreatCard('Clã Uchiha', 'Uchiha') +
 CreatCard('Cubo', 'Cube') + 
 CreatCard('Flor', 'Flower') + 
 CreatCard('Gato', 'Cat') + 
-CreatCard('Eric Cartman', 'Cartman') + 
+CreatCard('Eric Cartman','Eric-Cartman') + 
 CreatCard('Em breve', 'Soon') + 
 CreatCard('Em breve', 'Soon') + 
 CreatCard('Em breve', 'Soon') +
