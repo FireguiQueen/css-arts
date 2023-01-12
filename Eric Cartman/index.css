@@ -16,7 +16,7 @@ body{
     
 }
 :root{ 
-    --cordapele: linear-gradient(to left, rgb(234, 208, 175),  rgb(239, 218, 190));
+    --cordapele: linear-gradient(to left, rgb(228, 197, 155),  rgb(236, 210, 176));
 }
 
 header{
@@ -97,8 +97,8 @@ section{
 
 
 #head{
-    width: 444px;
-    height: 420px;
+    width: 425px;
+    height: 400px;
     background-image: var(--cordapele);
     border-radius: 50%;
     position: relative;
