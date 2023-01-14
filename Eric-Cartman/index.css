@@ -111,7 +111,7 @@ section{
     position: relative;
     overflow: hidden;
 
-    border-bottom: 7px double black;
+    border-bottom: 7.5px double black;
 }
 
 #eyes-part{
@@ -128,21 +128,24 @@ section{
 #eyel0{
     position: absolute;
     top: -20px;
-    left: 10px;
+    left: 1px;
     background-color: black;
-    width: 70px;
+    width: 76px;
     height: 6px;
-    transform: rotate(10deg);  
+    transform: rotate(10deg); 
+    border-radius: 30%; 
 }
 
 #eyel1{
     position: absolute;
-    top: -20px;
-    right: 10px;
+    top: -25px;
+    right: 1px;
     background-color: black;
-    width: 70px;
+    width: 75px;
     height: 6px;
     transform: rotate(-10deg);  
+    border-radius: 20%; 
+
 }
 .eyes{
     height: 130%;
