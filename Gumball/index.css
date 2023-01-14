@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: flower;
+    font-weight:lighter;
+}
+
+
+body{  
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 120px;
+    letter-spacing: 2.3px;
+    word-spacing: 30px;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root{
+    --gumball-body-color: #59d2ee;
+    --gumball-body-nose-color: rgb(210, 107, 47);
+    --gumball-shirt-color: #fae7c3;
+    --gumball-shirt1-color: #a56654;
+    --gumball-pants-color: #a56654;
+
+}
+#head{
+    background-color: var(--gumball-body-color);
+    width: 337px;
+    height: 324px;
+    border-radius: 47% 43% 13% 44%;
+
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 2.5px solid black;
+    padding-left: 5px;
+
+}
+
+#morehead{
+    position: absolute;
+    right: -58px;
+    bottom: -3px;
+    background-color: var(--gumball-body-color);
+
+    width: 230px;
+    height: 154px;
+    border-radius: 0 50% 50% 0;
+    border: 2.5px solid black;
+    z-index: -2;
+
+}
+
+.ear{
+    position: absolute;
+    background-color: var(--gumball-body-color);
+    width: 124px;
+    height: 195px;
+    z-index: -1;
+    border: 3px double black;
+}
+#ear0{
+    top: -10px;
+    left: 34px;  
+    border-radius: 47%;
+    transform: rotate(-23deg);
+}
+#ear1{
+    top: -17px;
+    right: 34px;  
+    border-radius: 47%;
+    transform: rotate(-23deg); 
+}
+#eyes{
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.eyes{
+    width: 120px;
+    height: 120px;
+    border-radius: 46%;
+    background-color: azure;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.pupilas{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+#pupila0{
+    position: absolute;
+    right: 10px;
+} #pupila1{
+    position: absolute;
+    right: 20px;
+}
+.eyeslashes{
+    position: absolute;
+    background-color: black;
+
+}
+
+#eyel0{
+    width: 70px;
+    height: 8.6px;
+    top: -20px;
+    transform: rotate(-7deg);
+    border-radius: 6px 40% 6px 0;
+
+
+}
+
+#eyel1{
+    top: -30px;
+    transform: rotate(-27deg);
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border-top: 8.5px solid black;
+    border-right: 8.5px solid black;
+    border-radius: 6px 40% 6px 0;
+
+}
+
+
+#mouth{
+    position: absolute;
+    bottom: 28%;
+    right: 27%;
+    z-index: 3;
+    background-color: #def0f5;
+    width: 85px;
+    height: 22px;
+    border-radius: 50%;
+    transform: rotate(3deg);
+    display: flex;
+    justify-content: center;
+    border: 1.7px solid black;
+}
+
+#nose{
+    position: absolute;
+    top: -0.4px;
+    background-color: var(--gumball-body-nose-color);
+    height: 10px;
+    width: 21px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+#nose1{
+    background-color: black;
+    width: 2px;
+    height: 20px;
+}
+
+#morehead1{
+    box-sizing: content-box;
+    position: absolute;
+    right: -50px;
+    bottom: 0px;
+    background-color:var(--gumball-body-color);
+    width: 210px;
+    height: 151.5px;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 1;
+    transform: rotateZ(2deg);
+}
+
+
+.HT{
+    position: absolute;
+    width: 50px;
+    height: 3.5px;
+    background-color: black;
+    z-index: 5;
+}
+
+#left0{
+    bottom: 50px;
+    left: 34px;
+    transform: rotate(-14deg);
+}#left1{
+    bottom: 74px;
+    left: 18px;
+    transform: rotate(-17deg);
+}#left2{
+    bottom: 26px;
+    left: 66px;
+    transform: rotate(-17deg);
+}
+
+
+#right0{
+    bottom: 63px;
+    right: -54px;
+    transform: rotate(14deg);
+}
+#right1{
+    bottom: 43px;
+    right: -44px;
+    transform: rotate(17deg);
+}
+
+
+#body{
+    position: absolute;
+    width: 25%;
+    height: 400px; 
+    background-color: var(--gumball-body-color);
+    bottom: -300px;
+    left: 51%;
+    position: relative;
+}
+#clothes{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    background-image: linear-gradient(var(--gumball-body-color) 0%, var(--gumball-shirt-color) 14%); 
+
+}
+#agola{
+    position: absolute;
+    width: 120%;
+    height: 10%;
+    left: -10px;
+    border: 1px solid black;
+    top: 4px;
+    z-index: 4;
+    background-color: var(--gumball-shirt1-color);
+    transform: rotate(9deg);
+    border-radius: 30% 0 0 0;
+}
