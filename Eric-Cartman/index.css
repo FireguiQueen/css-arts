@@ -16,7 +16,7 @@ body{
     
 }
 :root{ 
-    --cordapele: linear-gradient(to left, rgb(228, 197, 155),  rgb(236, 210, 176));
+    --cordapele: linear-gradient(to left, #fcd8b4 10%, rgb(234, 195, 157)100%);
 }
 
 header{
@@ -116,7 +116,25 @@ section{
     background-image: var(--cordapele);
 }
 
+#eyel0{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    background-color: black;
+    width: 70px;
+    height: 6px;
+    transform: rotate(10deg);  
+}
 
+#eyel1{
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    background-color: black;
+    width: 70px;
+    height: 6px;
+    transform: rotate(-10deg);  
+}
 .eyes{
     height: 130%;
     width: 110px;
