@@ -16,7 +16,8 @@ body{
     
 }
 :root{ 
-    --cordapele: linear-gradient(to left, #fcd8b4 10%, rgb(234, 195, 157)100%);
+    --skin-color: linear-gradient(to left, #fcd8b4 10%, rgb(234, 195, 157)100%);
+    --cap-color: linear-gradient(200deg, #47b2bc 50%,#459aa2);
 }
 
 header{
@@ -41,7 +42,7 @@ section{
 #character{
     position: relative;
 }
-#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12 {
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #poggers {
     z-index: 3;
     position: absolute;
     background-color: yellow;
@@ -50,8 +51,14 @@ section{
     height: 20px;
     left:40%;
 }
+#poggers{
+    width: 9%;
+    height: 30px;
+    top: -10px;
+    left: 49%;
+}
 #b1{
-    top: 2;
+    top: 2px;
     left: 50%;
 }
 #b2{
@@ -99,10 +106,12 @@ section{
 #head{
     width: 425px;
     height: 400px;
-    background-image: var(--cordapele);
+    background-image: var(--skin-color);
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+
+    border-bottom: 7px double black;
 }
 
 #eyes-part{
@@ -113,7 +122,7 @@ section{
     display: flex;
     justify-content: center;
     z-index: 54;
-    background-image: var(--cordapele);
+    background-image: var(--skin-color);
 }
 
 #eyel0{
@@ -156,8 +165,8 @@ section{
     position: absolute;
     left:64px;
     top: 45px;
-    width: 22px;
-    height: 22px;
+    width: 19px;
+    height: 19px;
 
     border-radius: 49%;
     background-color: black;
@@ -166,8 +175,8 @@ section{
     position: absolute;
     right:64px;
     top: 45px;
-    width: 22px;
-    height: 22px;
+    width: 19px;
+    height: 19px;
 
     border-radius: 49%;
     background-color: black;
@@ -178,7 +187,7 @@ section{
 #cap{
     position: absolute;
     bottom: 40%;
-    background-image: var(--cordapele);
+    background-image: var(--skin-color);
     width: 120%;
     left: -35px;
     height: 130px;
@@ -189,7 +198,7 @@ section{
 #capc{
     width: 100%;
     height: 150px;
-    background-image: linear-gradient(to left,rgb(25, 216, 216), rgb(43, 199, 199));
+    background-image: var(--cap-color);
 }
 
 
