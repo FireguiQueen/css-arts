@@ -33,9 +33,11 @@ nav ul{
     color: white;
     gap: 30px;
     margin-left: 20px;
+
 }
 
 section{
+    left: 25%;
     margin-inline: auto;
     width: 80%;
     height: 87.66%;
@@ -52,7 +54,7 @@ section{
 
 }
 img{ 
-    margin-right: 30px;
+    margin-right: 130px;
 }
 
 .level{
@@ -79,6 +81,8 @@ img{
     font-family: 'Rubik 80s Fade', cursive;
     font-size: 20px;
     color: rgb(0, 0, 0);
+
+    box-shadow: 8px 9px 15px 3px rgba(255, 253, 253, 0.075);
 
     transition: transform 130ms linear, border 200ms linear, background-color 200ms linear;
 
