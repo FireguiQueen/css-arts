@@ -45,14 +45,14 @@ section{
     position: relative;
 
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(128, 128, 128, 0.249));
-
+    filter:drop-shadow(30px 40px 25px  rgba(61, 60, 60, 0.452));
 
 }
 
 #square2{
     height: 200px;
     width: 200px;
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     position: absolute;
     background-image: linear-gradient(rgba(0, 0, 0, 0.302), rgba(0, 0, 0, 0.104));
 
