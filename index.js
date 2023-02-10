@@ -10,6 +10,8 @@ function CreatCard(nome, desenho){
     `
 }
 
+
+
 var section = document.getElementById('draws');
 section.innerHTML = 
 CreatCard('Clã Uchiha', 'Uchiha') + 
