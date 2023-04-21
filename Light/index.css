@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(222, 220, 247), rgba(134, 134, 228, 0.394));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+}
+:root{
+    /* base */
+    --base-width: 255px;
+    --base-height: 100px;
+
+    /* sun */
+    --sun-width: 88px;
+    --sun-height: 85px;
+    --sun-bc: #f1c645;
+
+}
+
+#base{
+    position: relative;
+    width: var(--base-width);
+    height: var(--base-height);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.397) inset;
+    border-radius: 113px 113px 113px 113px / 100px 100px 100px 100px;
+    background-color: #5494cc;
+    overflow: hidden;
+    padding-inline: 13px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#sun{
+    z-index: 3;
+    width: var(--sun-width);
+    height: var(--sun-height);
+    background-color: var(--sun-bc);
+    border-radius: 50%;
+    box-shadow: 
+    8px 9px 15px 3px rgba(255, 253, 253, 0.546) inset, 
+    -2px -4px 2px -2px rgba(0, 0, 0, 0.397) inset,
+    0 0 1px 25px #ffffff25,
+    -10px 0 1px 70px #ffffff16,
+    -10px 0 1px 100px #ffffff16;
+}
+
+.cloud{
+    z-index: 2;
+    border-radius: 50%;
+    background-color: rgb(230, 237, 245);
+
+    
+}
+.c1{
+    filter: drop-shadow(-1px -14px .3px rgba(175, 203, 236, 0.866));
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 1px;
+    bottom: -1px;
+}
+.c2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: -10px;
+    bottom: 20px;
+}
+.c3{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 40px;
+    bottom: -40px;
+}
+.c4{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 38px;
+    bottom: -13px;
+}
+.c5{
+    width: 54px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    bottom: 8px;
+}
+.c6{
+    width: 110px;
+    height: 70px;
+    position: absolute;
+    right: 40px;
+    bottom: -15px;
+}
+
+
+#sun:hover{
+    transform: translateX(100%) rotate(360deg);
+    transition: transform linear 200ms;
+}
