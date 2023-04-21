@@ -22,6 +22,10 @@ body{
     --sun-height: 85px;
     --sun-bc: #f1c645;
 
+    /* moon*/
+    --moon-bc: #c8cddf;
+    --moon-whole: #838794cd;
+
 }
 
 #base{
@@ -32,13 +36,15 @@ body{
     border-radius: 113px 113px 113px 113px / 100px 100px 100px 100px;
     background-color: #5494cc;
     overflow: hidden;
-    padding-inline: 13px;
+    padding-inline: 10px;
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
 #sun{
+    position: relative;
+    overflow: hidden;
     z-index: 3;
     width: var(--sun-width);
     height: var(--sun-height);
@@ -55,11 +61,9 @@ body{
 .cloud{
     z-index: 2;
     border-radius: 50%;
-    background-color: rgb(230, 237, 245);
-
-    
+    background-color: rgb(230, 237, 245);   
 }
-.c1{
+div.c1{
     filter: drop-shadow(-1px -14px .3px rgba(175, 203, 236, 0.866));
     width: 60px;
     height: 60px;
@@ -104,7 +108,55 @@ body{
 }
 
 
+.whole{
+    position: absolute;
+    background-color: none;
+    border-radius: 50%;
+    border: none;
+}
+.w1{
+    width: 28.5px;
+    height: 28.5px;
+    left: 13px;
+    bottom: 23px;
+}
+.w2{   
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    width: 17.5px;
+    height: 17.5px; 
+}
+.w3{
+    right: 20%;
+    bottom: 20px;
+    width: 15.5px;
+    height: 15.5px;
+}
+
 #sun:hover{
-    transform: translateX(100%) rotate(360deg);
-    transition: transform linear 200ms;
+    transform: translateX(150px) rotate(360deg);
+    animation: SunToMoon 5s alternate forwards;
+
+}
+#sun:hover > .whole{
+    background-color: var(--moon-whole);
+    transition: background-color linear 3s;
+}
+
+
+#base:hover{
+    background-color: #333542;
+    transition: background-color 2.9s linear;
+}
+
+@keyframes SunToMoon {
+    from{
+        transform: translateX(0);
+    } to{
+        transform: translateX(150px) rotate(360deg);
+        background-color: var(--moon-bc);
+        transition: transform linear 1s, background-color linear .4s;
+
+    }
 }
