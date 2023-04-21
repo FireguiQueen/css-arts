@@ -17,10 +17,10 @@ body{
     --base-width: 255px;
     --base-height: 100px;
 
-    /* sun */
-    --sun-width: 88px;
-    --sun-height: 85px;
-    --sun-bc: #f1c645;
+    /* celestialBody */
+    --celestialBody-width: 88px;
+    --celestialBody-height: 85px;
+    --celestialBody-bc: #f1c645;
 
     /* moon*/
     --moon-bc: #c8cddf;
@@ -38,17 +38,17 @@ body{
     overflow: hidden;
     padding-inline: 10px;
     display: flex;
-    justify-content: start;
+    justify-content: celestialBodyt;
     align-items: center;
 }
 
-#sun{
+#celestialBody{
     position: relative;
     overflow: hidden;
     z-index: 3;
-    width: var(--sun-width);
-    height: var(--sun-height);
-    background-color: var(--sun-bc);
+    width: var(--celestialBody-width);
+    height: var(--celestialBody-height);
+    background-color: var(--celestialBody-bc);
     border-radius: 50%;
     box-shadow: 
     8px 9px 15px 3px rgba(255, 253, 253, 0.546) inset, 
@@ -134,12 +134,16 @@ div.c1{
     height: 15.5px;
 }
 
-#sun:hover{
-    transform: translateX(150px) rotate(360deg);
-    animation: SunToMoon 5s alternate forwards;
 
+.moon{
+    transform: translateX(150px) rotate(360deg);
+    animation: celestialBodyToMoon 5s alternate forwards;
 }
-#sun:hover > .whole{
+.sun{
+    animation: celestialBodyToSun 5s alternate forwards;
+}
+
+#celestialBody:hover > .whole{
     background-color: var(--moon-whole);
     transition: background-color linear 3s;
 }
@@ -150,11 +154,22 @@ div.c1{
     transition: background-color 2.9s linear;
 }
 
-@keyframes SunToMoon {
+@keyframes celestialBodyToMoon {
     from{
         transform: translateX(0);
     } to{
         transform: translateX(150px) rotate(360deg);
+        background-color: var(--moon-bc);
+        transition: transform linear 1s, background-color linear .4s;
+
+    }
+}
+
+@keyframes celestialBodyToSun {
+    from{
+        transform: translateX(150px) rotate(0deg);
+    } to{
+        transform: translateX(0px) rotate(360deg);
         background-color: var(--moon-bc);
         transition: transform linear 1s, background-color linear .4s;
 
