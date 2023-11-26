@@ -81,10 +81,10 @@ img{
     border: 2px solid var(--card-color);
     background-position-y: -30px;
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 20px;    color: rgb(0, 0, 0);
+    font-size: 20px;   
+    color: rgb(0, 0, 0);
 
     box-shadow: 8px 9px 15px 3px rgba(255, 253, 253, 0.075);
-
     transition: transform 130ms linear, border 200ms linear, background-color 200ms linear;
 
 }
@@ -97,15 +97,13 @@ img{
     text-transform: uppercase;
     font-size: larger;
     letter-spacing: 2.2px;
-    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Delicious Handrawn', cursive;
 
     transition: background-color 200ms linear;
-
 }
 
 li{
     transition: transform 100ms linear;
-
 }
 
 #card:hover{
@@ -115,9 +113,9 @@ li{
 
     transition: transform 200ms linear, border 400ms linear, background-color 400ms linear;
 }
+
 #card:hover > #draws-name{
     background-color: var(--card-color-hover);
-
     transition: background-color 400ms linear;
 }
 
