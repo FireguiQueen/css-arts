@@ -45,6 +45,6 @@ const drawListLength = draws.length;
 const section = document.getElementById('draws');
 for (let i = 0; i < drawListLength; i++)
 {
-    const {name, file} = draws;
+    const {name, file} = draws[i];
     section.innerHTML += CreatCard(name, file);
 }
