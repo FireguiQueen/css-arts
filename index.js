@@ -25,7 +25,7 @@ const draws = [
     },
     {
         name: "Gato",
-        file: 'cat'
+        file: 'Cat'
     },
     {
         name: "Eric Cartman",
@@ -37,7 +37,7 @@ const draws = [
     },
     {
         name: "Em breve",
-        file: 'soon'   
+        file: 'Soon'   
     }
 ];
 const drawListLength = draws.length; 
