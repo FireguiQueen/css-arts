@@ -19,7 +19,7 @@ CreatCard('Cubo', 'Cube') +
 CreatCard('Flor', 'Flower') + 
 CreatCard('Gato', 'Cat') + 
 CreatCard('Eric Cartman','Eric-Cartman') + 
-CreatCard('Gumball [NF]', 'Gumball') + 
+CreatCard('Gumball', 'Gumball') + 
 CreatCard('Em breve', 'Soon') + 
 CreatCard('Em breve', 'Soon') +
 CreatCard('Em breve', 'Soon') 
