@@ -1,7 +1,7 @@
 function CreatCard(nome, desenho)
 {
     return`
-    <a href="./${desenho}/index.html" target="blank">
+    <a href="./Draws/${desenho}/index.html" target="blank">
         <div id="card" style="background-image: url(./images/${desenho}.png);">
             <ul id="draws-name">
                 <li>${nome}</li>
