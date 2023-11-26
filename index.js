@@ -1,4 +1,5 @@
-function CreatCard(nome, desenho){
+function CreatCard(nome, desenho)
+{
     return`
     <a href="./${desenho}/index.html" target="blank">
         <div id="card" style="background-image: url(./images/${desenho}.png);">
@@ -6,14 +7,13 @@ function CreatCard(nome, desenho){
                 <li>${nome}</li>
             </ul>
         </div>
-    </a>
-    `
+    </a>`
 }
 
 const draws = [
     {
         name: "Clã Uchiha",
-        file: 'Uchicha'
+        file: 'Uchiha'
     },
     {
         name: "Cubo",
