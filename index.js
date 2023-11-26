@@ -10,20 +10,41 @@ function CreatCard(nome, desenho){
     `
 }
 
+const draws = [
+    {
+        name: "Clã Uchiha",
+        file: 'Uchicha'
+    },
+    {
+        name: "Cubo",
+        file: 'Cube'
+    },
+    {
+        name: "Flor",
+        file: 'Flower'
+    },
+    {
+        name: "Gato",
+        file: 'cat'
+    },
+    {
+        name: "Eric Cartman",
+        file: 'Eric-Cartman'  
+    }, 
+    {
+        name: "Gumball",
+        file: 'Gumball'
+    },
+    {
+        name: "Em breve",
+        file: 'soon'   
+    }
+];
+const drawListLength = draws.length; 
 
-
-var section = document.getElementById('draws');
-section.innerHTML = 
-CreatCard('Clã Uchiha', 'Uchiha') + 
-CreatCard('Cubo', 'Cube') + 
-CreatCard('Flor', 'Flower') + 
-CreatCard('Gato', 'Cat') + 
-CreatCard('Eric Cartman','Eric-Cartman') + 
-CreatCard('Gumball', 'Gumball') + 
-CreatCard('Em breve', 'Soon') + 
-CreatCard('Em breve', 'Soon') +
-CreatCard('Em breve', 'Soon') 
-
-
-
-
+const section = document.getElementById('draws');
+for (let i = 0; i < drawListLength; i++)
+{
+    const {name, file} = draws;
+    section.innerHTML = CreatCard(name, file);
+}
