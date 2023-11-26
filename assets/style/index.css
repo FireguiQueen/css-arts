@@ -18,7 +18,7 @@ body{
 }
 :root{
     --card-color: rgb(255, 255, 255);
-    --card-color-hover: rgb(0, 0, 0);
+    --card-color-hover: rgb(16, 12, 11);
 }
 header{
     background-color: rgba(0, 0, 0, 0.157);
