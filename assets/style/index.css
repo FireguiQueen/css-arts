@@ -81,7 +81,7 @@ img{
     border: 2px solid var(--card-color);
     background-position-y: -30px;
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 20px;   
+    font-size: 24px;   
     color: rgb(0, 0, 0);
 
     box-shadow: 8px 9px 15px 3px rgba(255, 253, 253, 0.075);
