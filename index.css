@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Pixelify+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -78,9 +80,8 @@ img{
     align-items: flex-end;
     border: 2px solid var(--card-color);
     background-position-y: -30px;
-    font-family: 'Rubik 80s Fade', cursive;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;    color: rgb(0, 0, 0);
 
     box-shadow: 8px 9px 15px 3px rgba(255, 253, 253, 0.075);
 
