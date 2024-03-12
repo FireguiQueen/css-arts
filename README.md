@@ -9,4 +9,4 @@ Eu criei este repositório para aprimorar minhas habilidades em CSS e me diverti
 <br>
 
 ## Todos os desenhos 
-![image](https://github.com/FireguiQueen/CSS-Arts/assets/98475125/415cf4ec-1540-4deb-b771-e561616dc9a6)
+![allDraws](https://github.com/FireguiQueen/CSS-Arts/assets/98475125/73369f09-ceb0-4f6c-9e72-be7df46c1224)
