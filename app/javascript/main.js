@@ -13,7 +13,7 @@ function CreatCard(nome, desenho)
 const draws = [
     {
         name: "Clan Uchiha",
-        file: 'Uchiha'
+        file: 'uchiha'
     },
     {
         name: "Cube",
