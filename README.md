@@ -1,12 +1,14 @@
-# Sobre o repositório
-Eu criei este repositório para aprimorar minhas habilidades em CSS e me divertir ao mesmo tempo. Até agora, fiz seis desenhos no total. Posso dizer que foi divertido e aprendi muito (e foi frustrante algumas vezes haha), mas infelizmente este "projeto" está descontinuado, pois não tenho mais interesse em front-end.
+# About
+I created this repository to improve my CSS skills and have fun at the same time. 
+
+So far, I've made 6 draws in total. It was fun, and I've learned a lot (and been frustrated at times haha), but unfortunately this project has been discontinued.  
 
 <br>
 
-## Como visualizar a poeira escrita
-[Aqui](https://github.com/FireguiQueen/CSS-Arts/tree/main/Draws) você pode ver o código CSS e HTML dos desenhos feitos. 
+## How to view the code underneath the beauty 
+You can see [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/Draws) the draw's HTML and CSS codes.  
 
 <br>
 
-## Todos os desenhos 
+## 
 ![allDraws](https://github.com/FireguiQueen/CSS-Arts/assets/98475125/73369f09-ceb0-4f6c-9e72-be7df46c1224)
