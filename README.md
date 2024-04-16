@@ -10,5 +10,5 @@ You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/Draws) th
 
 <br>
 
-## 
-![allDraws](https://github.com/FireguiQueen/CSS-Arts/assets/98475125/73369f09-ceb0-4f6c-9e72-be7df46c1224)
+## Project
+![allDraws](https://github.com/FireguiQueen/CSS-Arts/assets/98475125/e7b3178e-3827-4a2e-b4d1-9a15e5e4986d)
