@@ -1,7 +1,7 @@
 function CreatCard(nome, desenho)
 {
     return`
-    <a href="./Draws/${desenho}/index.html" target="blank">
+    <a href="./draws/${desenho}/index.html" target="blank">
         <div id="card" style="background-image: url(./assets/images/${desenho}.png);">
             <ul id="draws-name">
                 <li>${nome}</li>
@@ -12,32 +12,32 @@ function CreatCard(nome, desenho)
 
 const draws = [
     {
-        name: "Clã Uchiha",
+        name: "Clan Uchiha",
         file: 'Uchiha'
     },
     {
-        name: "Cubo",
-        file: 'Cube'
+        name: "Cube",
+        file: 'cube'
     },
     {
-        name: "Flor",
-        file: 'Flower'
+        name: "Flower",
+        file: 'flower'
     },
     {
-        name: "Gato",
-        file: 'Cat'
+        name: "Cat",
+        file: 'cat'
     },
     {
         name: "Eric Cartman",
-        file: 'Eric-Cartman'  
+        file: 'eric-cartman'
     }, 
     {
         name: "Gumball",
-        file: 'Gumball'
+        file: 'gumball'
     },
     {
-        name: "Em breve",
-        file: 'Soon'   
+        name: "Soon",
+        file: 'soon'
     }
 ];
 const drawListLength = draws.length; 
@@ -48,4 +48,3 @@ for (let i = 0; i < drawListLength; i++)
     const {name, file} = draws[i];
     section.innerHTML += CreatCard(name, file);
 }
-
