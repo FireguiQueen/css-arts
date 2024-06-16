@@ -17,7 +17,7 @@ ___
 
 ## :octocat: Cloning
 ```
-  git clone
+  git clone https://github.com/FireguiQueen/CSS-Arts.git
 ```
 
 > OR
