@@ -6,7 +6,7 @@ So far, I've made 6 draws in total. It was fun, and I've learned a lot (and been
 <br>
 
 ## How to view the code underneath the beauty 
-You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/Draws) the code for the designs.
+You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/src/draws) the code for the designs.
 
 <br>
 
