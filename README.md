@@ -12,3 +12,15 @@ You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/Draws) th
 
 ## 🖼️ Project
 ![allDraws](https://github.com/FireguiQueen/CSS-Arts/assets/98475125/e7b3178e-3827-4a2e-b4d1-9a15e5e4986d)
+
+___
+
+## :octocat: Cloning
+```
+  git clone
+```
+
+> OR
+
+
+<a href="https://github.com/FireguiQueen/CSS-Arts/archive/refs/heads/main.zip"> ![download](https://img.shields.io/badge/Download%20Zip-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) </a>
