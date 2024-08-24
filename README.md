@@ -15,10 +15,10 @@ ___
 
 ## :octocat: Cloning
 ```
-  git clone https://github.com/FireguiQueen/CSS-Arts.git
+  git clone https://github.com/FireguiQueen/css-arts.git
 ```
 
 > OR
 
 
-<a href="https://github.com/FireguiQueen/CSS-Arts/archive/refs/heads/main.zip"> ![download](https://img.shields.io/badge/Download%20Zip-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) </a>
+<a href="https://github.com/FireguiQueen/css-arts/archive/refs/heads/main.zip"> ![download](https://img.shields.io/badge/Download%20Zip-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) </a>
