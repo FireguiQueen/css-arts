@@ -1,5 +1,5 @@
 # About
-I created this repository to improve my CSS skills and have fun at the same time. So far, I've made 6 draws in total. It was fun, and I've learned a lot (and been frustrated at times haha). 
+I created this repository to improve my CSS skills and have fun at the same time. So far, I've made 6 draws in total. It was fun (and been frustrated at times haha). 
 
 However, despite all the fun I had, this project has been discontinued. I don’t really care about CSS anymore — I find it pointless to study. In my opinion, if you want to become a developer, you should focus on studying math and physics instead.
 
