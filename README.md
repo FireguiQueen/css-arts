@@ -1,9 +1,9 @@
 # About
-I created this repository to improve my CSS skills and have fun at the same time. 
+I created this repository to improve my CSS skills and have fun at the same time. So far, I've made 6 draws in total. It was fun, and I've learned a lot (and been frustrated at times haha). 
 
-So far, I've made 6 draws in total. It was fun, and I've learned a lot (and been frustrated at times haha), but unfortunately this project has been discontinued.  
+However, despite all the fun I had, this project has been discontinued. I don’t really care about CSS anymore — I find it pointless to study. In my opinion, if you want to become a developer, you should focus on studying math and physics instead.
 
-## How to view the code underneath the beauty 
+## Viewing the code underneath the beauty 
 You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/src/draws) the code for the designs.
 
 <br>
@@ -19,6 +19,5 @@ ___
 ```
 
 > OR
-
 
 <a href="https://github.com/FireguiQueen/css-arts/archive/refs/heads/main.zip"> ![download](https://img.shields.io/badge/Download%20Zip-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) </a>
