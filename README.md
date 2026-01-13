@@ -1,10 +1,8 @@
 # About
-I created this repository to improve my CSS skills and have fun at the same time. So far, I've made 6 draws in total. It was fun (and a bit frustrating at times haha). 
-
-However, despite all the fun I had, this project has been discontinued. I don’t really care about CSS anymore — I find it pointless to study. In my opinion, if you want to become a non-mediocre developer, you should focus on studying a lot of math and physics instead.
+I created this repository to improve my CSS skills and have fun at the same time. So far, I've made 6 draws in total. It was fun (and a bit frustrating at times). 
 
 ## Viewing the code underneath the beauty 
-You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/src/draws) the code for the designs.
+You can find [here](https://github.com/FireguiQueen/CSS-Arts/tree/main/src/draws) the "code" for the designs.
 
 <br>
 
